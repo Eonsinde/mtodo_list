@@ -1,0 +1,18 @@
+.text-app-theme{
+    color: rgb(241, 241, 241);
+}
+
+.message-box{
+    position: absolute;
+    top: 20px;
+    width: 20%;
+    padding: 10px;
+    box-shadow: 0 0 5px #000000bc;
+    transform: translateX(100%);
+    transition: .3s ease;
+}
+
+.message-box.show{
+    right: 10px;
+    transform: translateX(0%);
+}

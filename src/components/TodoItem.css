@@ -1,0 +1,18 @@
+.todo-item{
+    border: 1px rgb(138, 136, 136) solid;
+    margin: 10px 0px;
+    padding: 10px 8px;
+    background: #495152;
+    transition: .3s ease;
+}
+
+.todo-item:hover{
+    border-color: rgb(216, 216, 216);
+}
+
+.remove-todo{
+    padding: 0px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
