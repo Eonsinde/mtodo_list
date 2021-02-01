@@ -13,7 +13,6 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    // axios.get('http://127.0.0.1:8000/api/todos/')
     axios.get("https://jsonplaceholder.typicode.com/todos")
       .then(res => res.data)
       .then(TODOS => this.setState({todos: TODOS}))
